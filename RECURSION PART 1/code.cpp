@@ -80,6 +80,25 @@ int firstOccurance(vector<int> arr, int i , int target){
   
 }
 
+//Last occurance of a element in a vector?
+ int LastOccurance(vector<int> arr, int i , int target){
+
+    if( i == arr.size()){
+
+        return -1;
+    }
+
+    int indexFound = LastOccurance(arr,i+1,target); // returns -1 if not found returns i if found
+    
+    if( indexFound == -1 && arr[i] == target){
+
+        return i;
+    }
+
+    return indexFound;
+   
+ }
+
 
 int main(){
    
@@ -96,7 +115,8 @@ int main(){
 
     vector<int> arr = { 1,4,5,2,3,5,2,3,6,4,6};
     //   cout<<arr.size();
-      cout<<firstOccurance(arr,0,5 );
+      cout<<firstOccurance(arr,0,5 )<<endl;
+      cout<<LastOccurance(arr,0,55);
 
     return 0;
 }
