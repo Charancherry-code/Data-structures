@@ -99,6 +99,27 @@ int firstOccurance(vector<int> arr, int i , int target){
    
  }
 
+ // x to the power n 
+
+ int pow( int x, int n){
+
+    if(n == 0){
+
+        return 1;
+    }
+
+    int halfPower= pow(x , n/2);
+
+    int halfPowerSquare = halfPower * halfPower;
+
+    if( n% 2 != 0){
+
+        return x * halfPower;
+    }
+
+    return halfPowerSquare;
+ }
+
 
 int main(){
    
@@ -113,10 +134,13 @@ int main(){
     // cout<<isSorted(arr1, 5, 0)<<endl;
     // cout<<isSorted(arr2, 5, 0);
 
-    vector<int> arr = { 1,4,5,2,3,5,2,3,6,4,6};
-    //   cout<<arr.size();
-      cout<<firstOccurance(arr,0,5 )<<endl;
-      cout<<LastOccurance(arr,0,55);
+    // vector<int> arr = { 1,4,5,2,3,5,2,3,6,4,6};
+    // //   cout<<arr.size();
+    //   cout<<firstOccurance(arr,0,5 )<<endl;
+      
+    //   cout<<LastOccurance(arr,0,5);
+
+    cout<<pow(3,2);
 
     return 0;
 }
