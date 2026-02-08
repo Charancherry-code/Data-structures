@@ -55,13 +55,60 @@ void removeDuplicate( string str, string ans, int i, int map[]){
         }
 
         //single choice
-        int ans1 = paringFriends(n-1);
+        int ans1 = paringFriends(n-1); //we have n-1 choices
 
         //pairing choice
         int ans2 = (n-1) * paringFriends(n-2); // n-1 because we have n-1 choices to pair with the first friend
 
         return ans1 + ans2;
+
     }
+
+    //Binary Strings of size n without consecutive 1's Problem {paytm}
+
+ // Prints all binary strings of length n with no consecutive 1s.
+// lastPlace = 0 or 1 tells what we put in the previous position.
+    
+//    void binaryString( int n, int lastPlace, string ans){
+//  // If we have filled all positions, print the answer.
+//     if( n==0){
+
+//         cout<<ans<<endl;
+//         return;
+//     }
+
+//     if( lastPlace != 1){
+
+//          // If last was 0, we can place both 0 and 1.
+//         binaryString( n-1, 0, ans+'0');
+//         binaryString( n-1, 1 , ans+'1');
+//     }else{
+//       // If last was 1, we can only place 0.
+//         binaryString( n-1, 0, ans+'0');
+//     }
+
+//    }
+    //same problem without lastdigit
+
+      void binaryString( int n, string ans){
+   // If we have filled all positions, print the answer.
+    if( n==0){
+
+        cout<<ans<<endl;
+        return;
+    }
+
+    if( ans[ans.size()-1] != '1'){
+
+         // If last was 0, we can place both 0 and 1.
+        binaryString( n-1,  ans+'0');
+        binaryString( n-1,  ans+'1');
+    }else{
+      // If last was 1, we can only place 0.
+        binaryString( n-1,  ans+'0');
+    }
+
+   }
 
 int main(){
 
@@ -76,7 +123,10 @@ int main(){
     // removeDuplicate(str, ans, 0, map );
 
     //Pairing Friends Problem
-    cout<<paringFriends(3);
-   
+    // cout<<paringFriends(3);
+
+    string ans = "";
+    binaryString(3 , ans);
+
     return 0;
 }
