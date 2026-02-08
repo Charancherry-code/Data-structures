@@ -46,17 +46,37 @@ void removeDuplicate( string str, string ans, int i, int map[]){
       }
 }
 
+   //Friends Pairing Problem Goldman Sachs
+
+    int paringFriends(int n){
+        if( n == 1 || n == 0){ //base case
+
+            return 1;
+        }
+
+        //single choice
+        int ans1 = paringFriends(n-1);
+
+        //pairing choice
+        int ans2 = (n-1) * paringFriends(n-2); // n-1 because we have n-1 choices to pair with the first friend
+
+        return ans1 + ans2;
+    }
+
 int main(){
 
     //  cout<<tilingProblem(2);
       
      // Remove Duplicates 
     
-    string str = "aabbcc";
-    string ans = " ";
-    int map[26] = {false};  // setting array of charcter from a  to z to false 
+    // string str = "aabbcc";
+    // string ans = " ";
+    // int map[26] = {false};  // setting array of charcter from a  to z to false 
 
-    removeDuplicate(str, ans, 0, map );
+    // removeDuplicate(str, ans, 0, map );
+
+    //Pairing Friends Problem
+    cout<<paringFriends(3);
    
     return 0;
 }
