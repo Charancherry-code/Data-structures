@@ -7,10 +7,6 @@
 
 - 🌱 I’m currently learning **Data Structures and Algorithms**
 
-- 👯 I’m looking to collaborate on **AI projects and Web3 apps**
-
-- 🤝 I’m looking for help with **3D web animations**
-
 - 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/banoth-charan/](https://www.linkedin.com/in/banoth-charan/)
 
 - 💬 Ask me about **Web development, AI integration, and Data Structures**
