@@ -1,29 +1,170 @@
-<h1 align="center">Hi 👋, I'm Banoth Charan</h1>
-<h3 align="center">A passionate tech enthusiast and AI explorer from India.</h3>
+# 📚 Data Structures & Algorithms Mastery
 
-- 🌱 I’m currently learning **Data Structures and Algorithms**
+A comprehensive collection of **well-documented**, **production-quality** implementations of fundamental data structures and algorithms in C++. This repository demonstrates deep understanding of core CS concepts essential for technical interviews and software development.
 
-- 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/banoth-charan/](https://www.linkedin.com/in/banoth-charan/)
+---
 
-- 💬 Ask me about **Web development, AI integration, and Data Structures**
+## 🎯 Overview
 
-- 📫 How to reach me **charancherry1129@gmail.com**
+This project serves as a learning resource and interview preparation guide, covering critical algorithmic paradigms with clear explanations, time/space complexity analysis, and real-world use cases.
 
-- 📄 Know about my experiences [https://drive.google.com/file/d/1MQ2JrKYDcYwITlyVjg0sPfg30mfMxuTk/view?usp=drivesdk](https://drive.google.com/file/d/1MQ2JrKYDcYwITlyVjg0sPfg30mfMxuTk/view?usp=drivesdk)
+**Key Features:**
 
-- ⚡ Fun fact **I think semicolons ; have feelings too.**
+- ✅ Clean, readable C++ code following best practices
+- ✅ Comprehensive documentation with Doxygen-style comments
+- ✅ Complexity analysis for every algorithm
+- ✅ Real-world problem examples (Amazon, Google interview questions)
+- ✅ Well-organized module structure
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/charanbano29071" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="charanbano29071" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/banoth-charan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="banoth-charan" height="30" width="40" /></a>
-<a href="https://instagram.com/charan_cherry212" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="charan_cherry212" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/banoth charan" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="banoth charan" height="30" width="40" /></a>
-</p>
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+## 📂 Project Structure
 
+```
+DSA/
+├── DIVIDE&CONQUER/        # Divide and Conquer paradigm
+│   └── code.cpp           # Merge Sort implementation
+├── RECURSION PART 1/      # Recursion fundamentals
+│   └── code.cpp           # Basic recursive algorithms
+├── RECURSION PART 2/      # Advanced recursion techniques
+│   └── code.cpp           # Complex recursive problems
+└── README.md
+```
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=charancherry-code&" alt="charancherry-code" /></p>
+---
 
+## 📖 Topics Covered
+
+### 🔀 Divide & Conquer
+
+- **Merge Sort** - Efficient O(n log n) sorting algorithm
+  - Two-pointer merging technique
+  - In-place merge operations
+  - Optimal for large datasets
+
+### 🔁 Recursion - Part 1
+
+Core recursive patterns and mathematical functions:
+
+- **Factorial** - Base case and recursive step fundamentals
+- **Number Printing** - Decreasing order traversal
+- **Sum Calculation** - Accumulation through recursion
+- **Fibonacci** - Exponential time complexity analysis
+- **Array Validation** - Sorted array checking
+
+### 🎨 Recursion - Part 2
+
+Advanced problem-solving with recursion:
+
+- **Tiling Problem** - Dynamic programming fundamentals (Amazon, Google)
+- **String Deduplication** - Character mapping and backtracking
+- **Friends Pairing Problem** - Combinatorial recursion (Goldman Sachs)
+
+---
+
+## 🚀 Quick Start
+
+### Compilation
+
+```bash
+g++ -std=c++11 DIVIDE&CONQUER/code.cpp -o merge_sort
+./merge_sort
+```
+
+### Example: Running Recursion Examples
+
+```bash
+g++ -std=c++11 "RECURSION PART 1/code.cpp" -o recursion1
+./recursion1
+```
+
+---
+
+## 💡 Key Concepts Demonstrated
+
+| Algorithm    | Time Complexity | Space Complexity | Use Case              |
+| ------------ | --------------- | ---------------- | --------------------- |
+| Merge Sort   | O(n log n)      | O(n)             | Large dataset sorting |
+| Factorial    | O(n)            | O(n)             | Recursive base cases  |
+| Fibonacci    | O(2^n)          | O(n)             | DP problem foundation |
+| String Dedup | O(n)            | O(26)            | Hash-based problems   |
+| Tiling       | O(2^n)          | O(n)             | Combinatorial DP      |
+
+---
+
+## 🎓 Interview Preparation
+
+This repository contains solutions to interview questions from:
+
+- **Amazon** - Tiling Problem
+- **Google** - Tiling Problem
+- **Goldman Sachs** - Friends Pairing Problem
+
+Each solution includes:
+
+- ✓ Problem statement clarity
+- ✓ Complexity walk-through
+- ✓ Optimal implementation
+- ✓ Edge case handling
+
+---
+
+## 📚 Learning Path
+
+Recommended study order for interview preparation:
+
+1. **Start Here** → Recursion Part 1 (Build fundamentals)
+2. **Core Concepts** → Recursion Part 2 (Complex problem patterns)
+3. **Optimization** → Divide & Conquer (Efficient algorithms)
+
+---
+
+## 🔧 Technical Stack
+
+- **Language:** C++11
+- **Compiler:** GCC/Clang
+- **Standards:** ISO C++11 or later
+- **Platform:** Cross-platform (Windows, Linux, macOS)
+
+---
+
+## 📝 Code Quality
+
+- **Documentation:** Doxygen-style comments with parameter descriptions
+- **Style:** Google C++ Style Guide compliant
+- **Testing:** Input validation and edge case handling
+- **Readability:** Clear variable names and logical structure
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please ensure:
+
+- Code follows existing style conventions
+- All functions include documentation
+- Complexity analysis is provided
+- Test cases are included
+
+---
+
+## 📄 License
+
+This project is open source and available for educational purposes.
+
+---
+
+## ✨ Connect & Feedback
+
+If you found this helpful, please ⭐ star this repository!
+
+**Perfect for:**
+
+- 📌 Technical interview preparation
+- 🎓 CS course supplementary materials
+- 💼 Portfolio demonstration
+- 🧠 Algorithm mastery
+
+---
+
+_Last Updated: February 2026_
