@@ -1,3 +1,11 @@
+/**
+ * @file code.cpp
+ * @brief Divide and Conquer Algorithms - Merge Sort Implementation
+ * @author Developer
+ * @version 1.0
+ * @date 2026-02-10
+ */
+
 #include<iostream>
 #include<vector>
 using namespace std;
