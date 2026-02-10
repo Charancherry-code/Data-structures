@@ -1,3 +1,12 @@
+/**
+ * @file code.cpp
+ * @brief Recursion Fundamentals - Part 1
+ * @details Core recursive patterns including factorial, fibonacci, and array operations
+ * @author Developer
+ * @version 1.0
+ * @date 2026-02-10
+ */
+
 #include <iostream>
 #include<vector>
 using namespace std;
@@ -109,7 +118,6 @@ int firstOccurance(vector<int> arr, int i , int target){
     }
 
     int halfPower= pow(x , n/2);
-
     int halfPowerSquare = halfPower * halfPower;
 
     if( n% 2 != 0){
