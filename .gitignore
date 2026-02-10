@@ -1,0 +1,41 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.a
+*.so
+*.dylib
+
+# Debug and object files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+/build/
+/cmake-build-debug/
+/cmake-build-release/
+
+# Dependencies
+/lib/
+/bin/
+
+# Test outputs
+/test_output/
+*.log
+
+# OS files
+Thumbs.db
+*.class
+.classpath
+.project
+.settings/
