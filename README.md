@@ -22,12 +22,18 @@ This project serves as a learning resource and interview preparation guide, cove
 
 ```
 DSA/
-├── DIVIDE&CONQUER/        # Divide and Conquer paradigm
-│   └── code.cpp           # Merge Sort implementation
-├── RECURSION PART 1/      # Recursion fundamentals
-│   └── code.cpp           # Basic recursive algorithms
-├── RECURSION PART 2/      # Advanced recursion techniques
-│   └── code.cpp           # Complex recursive problems
+├── ARRAYS/                           # Array-based algorithms
+├── DIVIDE&CONQUER/                   # Divide and Conquer paradigm
+│   ├── mergeSort/                    # Merge Sort implementation
+│   │   └── code.cpp
+│   ├── quickSort/                    # Quick Sort implementation
+│   │   └── code.cpp
+│   └── SEARCH-IN-ROTATED-SORTED-ARRAY/  # Binary search variant
+│       └── code.cpp
+├── RECURSION PART 1/                 # Recursion fundamentals
+│   └── code.cpp                      # Basic recursive algorithms
+├── RECURSION PART 2/                 # Advanced recursion techniques
+│   └── code.cpp                      # Complex recursive problems
 └── README.md
 ```
 
@@ -35,12 +41,26 @@ DSA/
 
 ## 📖 Topics Covered
 
+### � Arrays
+
+Coming soon - Array manipulation and searching algorithms
+
 ### 🔀 Divide & Conquer
 
 - **Merge Sort** - Efficient O(n log n) sorting algorithm
   - Two-pointer merging technique
   - In-place merge operations
   - Optimal for large datasets
+
+- **Quick Sort** - Fast in-place sorting algorithm
+  - Partition-based approach
+  - Average O(n log n), worst O(n²)
+  - Industry-standard sorting method
+
+- **Search in Rotated Sorted Array** - Binary search variant
+  - O(log n) search complexity
+  - Pivot detection technique
+  - Common interview problem (Amazon, Microsoft)
 
 ### 🔁 Recursion - Part 1
 
@@ -67,8 +87,17 @@ Advanced problem-solving with recursion:
 ### Compilation
 
 ```bash
-g++ -std=c++11 DIVIDE&CONQUER/code.cpp -o merge_sort
+# Merge Sort
+g++ -std=c++11 DIVIDE&CONQUER/mergeSort/code.cpp -o merge_sort
 ./merge_sort
+
+# Quick Sort
+g++ -std=c++11 DIVIDE&CONQUER/quickSort/code.cpp -o quick_sort
+./quick_sort
+
+# Search in Rotated Sorted Array
+g++ -std=c++11 DIVIDE&CONQUER/SEARCH-IN-ROTATED-SORTED-ARRAY/code.cpp -o rotated_search
+./rotated_search
 ```
 
 ### Example: Running Recursion Examples
@@ -82,13 +111,15 @@ g++ -std=c++11 "RECURSION PART 1/code.cpp" -o recursion1
 
 ## 💡 Key Concepts Demonstrated
 
-| Algorithm    | Time Complexity | Space Complexity | Use Case              |
-| ------------ | --------------- | ---------------- | --------------------- |
-| Merge Sort   | O(n log n)      | O(n)             | Large dataset sorting |
-| Factorial    | O(n)            | O(n)             | Recursive base cases  |
-| Fibonacci    | O(2^n)          | O(n)             | DP problem foundation |
-| String Dedup | O(n)            | O(26)            | Hash-based problems   |
-| Tiling       | O(2^n)          | O(n)             | Combinatorial DP      |
+| Algorithm            | Time Complexity | Space Complexity | Use Case               |
+| -------------------- | --------------- | ---------------- | ---------------------- |
+| Merge Sort           | O(n log n)      | O(n)             | Large dataset sorting  |
+| Quick Sort           | O(n log n) avg  | O(log n)         | In-place fast sorting  |
+| Rotated Array Search | O(log n)        | O(1)             | Modified binary search |
+| Factorial            | O(n)            | O(n)             | Recursive base cases   |
+| Fibonacci            | O(2^n)          | O(n)             | DP problem foundation  |
+| String Dedup         | O(n)            | O(26)            | Hash-based problems    |
+| Tiling               | O(2^n)          | O(n)             | Combinatorial DP       |
 
 ---
 
@@ -96,8 +127,9 @@ g++ -std=c++11 "RECURSION PART 1/code.cpp" -o recursion1
 
 This repository contains solutions to interview questions from:
 
-- **Amazon** - Tiling Problem
+- **Amazon** - Tiling Problem, Search in Rotated Sorted Array
 - **Google** - Tiling Problem
+- **Microsoft** - Search in Rotated Sorted Array
 - **Goldman Sachs** - Friends Pairing Problem
 
 Each solution includes:
@@ -116,6 +148,10 @@ Recommended study order for interview preparation:
 1. **Start Here** → Recursion Part 1 (Build fundamentals)
 2. **Core Concepts** → Recursion Part 2 (Complex problem patterns)
 3. **Optimization** → Divide & Conquer (Efficient algorithms)
+   - Begin with Merge Sort (stable sorting)
+   - Progress to Quick Sort (in-place sorting)
+   - Master Search in Rotated Sorted Array (binary search variations)
+4. **Data Structures** → Arrays (Coming soon)
 
 ---
 
