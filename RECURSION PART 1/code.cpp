@@ -2,7 +2,7 @@
  * @file code.cpp
  * @brief Recursion Fundamentals - Part 1
  * @details Core recursive patterns including factorial, fibonacci, and array operations
- * @author Developer
+ * @author Charan
  * @version 1.0
  * @date 2026-02-10
  */

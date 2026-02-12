@@ -1,7 +1,7 @@
 /**
  * @file code.cpp
  * @brief Divide and Conquer Algorithms - Merge Sort Implementation
- * @author Developer
+ * @author Charan
  * @version 1.0
  * @date 2026-02-10
  */
@@ -34,7 +34,7 @@ using namespace std;
  * int arr[] = {1, 3, 5, 2, 4, 6};
  * merge(arr, 0, 2, 5); // Merges [1,3,5] and [2,4,6] into [1,2,3,4,5,6]
  */
-void merge( int arr[], int si, int mid, int ei){
+ void merge( int arr[], int si, int mid, int ei){  
 
     vector<int> temp; //temporaray vector 
     int i = si; 
@@ -80,7 +80,7 @@ void printArr( int arr[], int n){
     cout<< endl;
 }
 
-void mergeSort( int arr[], int si, int ei){  //o(NLOGN)
+  void mergeSort( int arr[], int si, int ei){  //o(NLOGN) 
 
     if( si >= ei ){
 
@@ -96,13 +96,22 @@ void mergeSort( int arr[], int si, int ei){  //o(NLOGN)
        merge( arr, si, mid, ei);  //merge function //   CONQUER STEP
 }
 
+
+
+
 int main(){
+      /* FD */        /*  */
+
+    //MERGE SORT &&  //QUICK SORT
 
     int arr[6] = {1,2,5,3,2,4};
     int n=6;
 
+    // mergeSort(arr, 0, n-1);
     mergeSort(arr, 0, n-1);
     printArr(arr ,n);
-
+ 
+   
+  
     return 0;
 }

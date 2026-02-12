@@ -2,7 +2,7 @@
  * @file code.cpp
  * @brief Recursion Advanced Techniques - Part 2
  * @details Complex recursive problems including tiling, string deduplication, and friends pairing
- * @author Developer
+ * @author Charan
  * @version 1.0
  * @date 2026-02-10
  * @note Contains solutions to interview questions from Amazon, Google, Goldman Sachs
