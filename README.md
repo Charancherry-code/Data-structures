@@ -102,21 +102,51 @@ Exhaustive search with pruning strategies:
   - Time: O(9^(n²)), Space: O(n²)
   - NP-complete problem with optimization through pruning
 
-## Build and Run
+## 🚀 Build and Run
 
-Use g++ to compile any file.
+### Compilation
 
-Example commands:
+Use g++ with C++11 standard to compile any file.
 
+**Divide & Conquer Examples:**
 ```bash
+# Merge Sort
 g++ -std=c++11 "DIVIDE&CONQUER/mergeSort/code.cpp" -o merge_sort
 ./merge_sort
 
+# Quick Sort
+g++ -std=c++11 "DIVIDE&CONQUER/quickSort/code.cpp" -o quick_sort
+./quick_sort
+
+# Search in Rotated Sorted Array
 g++ -std=c++11 "DIVIDE&CONQUER/SEARCH-IN-ROTATED-SORTED-ARRAY/code.cpp" -o rotated_search
 ./rotated_search
+```
 
+**Backtracking Examples:**
+```bash
+# N-Queens
 g++ -std=c++11 "BACK-TRACKING/N-queens/code.cpp" -o nqueens
 ./nqueens
+
+# Permutations
+g++ -std=c++11 "BACK-TRACKING/permutations/code.cpp" -o permutations
+./permutations
+
+# Sudoku Solver
+g++ -std=c++11 "BACK-TRACKING/sudokoSolver/code.cpp" -o sudoku
+./sudoku
+```
+
+**Recursion Examples:**
+```bash
+# Recursion Part 1
+g++ -std=c++11 "RECURSION PART 1/code.cpp" -o recursion1
+./recursion1
+
+# Recursion Part 2
+g++ -std=c++11 "RECURSION PART 2/code.cpp" -o recursion2
+./recursion2
 ```
 
 ## Notes
