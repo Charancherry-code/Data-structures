@@ -13,41 +13,30 @@ This project serves as a learning resource and interview preparation guide, cove
 - ✅ Real-world problem examples (Amazon, Google, Microsoft interview questions)
 - ✅ Well-organized modular structure by algorithmic paradigm
 
-## Project Structure
+## 📂 Project Structure
 
-```text
+```
 DSA/
-|-- ARRAYS/
-|-- BACK-TRACKING/
-|   |-- findSubsets/
-|   |   `-- code.cpp
-|   |-- GridWays/
-|   |   `-- code.cpp
-|   |-- init/
-|   |   `-- code.cpp
-|   |-- N-queens/
-|   |   `-- code.cpp
-|   `-- permutations/
-|       `-- code.cpp
-|-- BITMANIPULATION/
-|-- DIVIDE&CONQUER/
-|   |-- mergeSort/
-|   |   `-- code.cpp
-|   |-- quickSort/
-|   |   `-- code.cpp
-|   `-- SEARCH-IN-ROTATED-SORTED-ARRAY/
-|       `-- code.cpp
-|-- POINTERS/
-|-- RECURSION PART 1/
-|   `-- code.cpp
-|-- RECURSION PART 2/
-|   `-- code.cpp
-|-- SORTING/
-|-- STRINGS/
-|-- VECTORS/
-|   `-- 2D-VECTORS/
-|-- temp.cpp
-`-- README.md
+├── DIVIDE&CONQUER/                   # Divide and Conquer algorithms
+│   ├── mergeSort/                    # O(n log n) stable sorting
+│   ├── quickSort/                    # O(n log n) avg in-place sorting
+│   └── SEARCH-IN-ROTATED-SORTED-ARRAY/  # O(log n) binary search variant
+├── RECURSION PART 1/                 # Recursion fundamentals
+├── RECURSION PART 2/                 # Advanced recursion techniques
+├── BACK-TRACKING/                    # Backtracking algorithms
+│   ├── findSubsets/                  # Generate all subsets
+│   ├── GridWays/                     # Count paths in grid
+│   ├── N-queens/                     # N-Queens problem
+│   ├── permutations/                 # Generate permutations
+│   └── sudokoSolver/                 # Sudoku solver using backtracking
+├── ARRAYS/                           # Array problems (in progress)
+├── SORTING/                          # Sorting algorithms (in progress)
+├── STRINGS/                          # String manipulation (in progress)
+├── VECTORS/                          # Vector operations
+│   └── 2D-VECTORS/                   # 2D vector implementations
+├── POINTERS/                         # Pointer concepts (in progress)
+├── BITMANIPULATION/                  # Bit manipulation (in progress)
+└── README.md
 ```
 
 ## Implemented Topics
