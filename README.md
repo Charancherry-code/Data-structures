@@ -71,11 +71,19 @@ Fundamentals of recursive problem solving:
   - Forward and backward iteration using recursion
   - Array element processing and validation
 
-### Recursion Part 2
+### 🎯 Recursion - Part 2
 
-- Tiling Problem
-- String deduplication using recursion
-- Friends Pairing Problem
+Advanced recursive problem solving patterns:
+
+- **Tiling Problem** - Dynamic programming + recursion
+  - Time: O(2^n), Space: O(n)
+  - Amazon & Google interview question
+- **String Deduplication** - Character removal via recursion
+  - Time: O(n), Space: O(26) character set
+  - Backtracking with character masking
+- **Friends Pairing Problem** - Combinatorial recursion
+  - Time: O(2^n), Space: O(n)
+  - Goldman Sachs interview problem
 
 ### Backtracking
 
