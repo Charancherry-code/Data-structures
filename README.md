@@ -263,6 +263,29 @@ All implementations follow these principles:
 **Advanced** - Complex optimization
 - Sudoku Solver, Tiling with DP, Search Rotated Array
 
+## ⚡ Key Optimization Techniques
+
+### Sorting
+- **Comparison-based:** Merge Sort, Quick Sort
+- **Optimization:** Pivot selection strategies for Quick Sort
+- **Trade-offs:** Stable sorting vs in-place vs cache efficiency
+
+### Searching
+- **Binary Search:** Applicable to rotated sorted arrays
+- **Pruning:** Early termination in search space
+- **Optimization:** Logarithmic time complexity
+
+### Recursion Optimization
+- **Memoization:** Cache recursive results (DP foundation)
+- **Tail Recursion:** Compiler optimization potential
+- **Base Cases:** Minimize recursive depth
+
+### Backtracking Optimization
+- **Constraint Pruning:** Early detection of invalid states
+- **Board Representation:** Efficient state encoding
+- **Heuristics:** Intelligent search ordering
+- **Example:** Sudoku uses bitmask for cell possibilities
+
 ## Notes
 
 - Some folders are placeholders and will be filled with implementations gradually.
