@@ -165,6 +165,32 @@ g++ -std=c++11 "RECURSION PART 2/code.cpp" -o recursion2
 | Fibonacci                         | O(2^n) naive       | O(n)             | Recursion     | Exponential without memoization|
 | Tiling Problem                    | O(2^n)             | O(n)             | Recursion     | DP with recursion              |
 
+## 🎓 Interview Preparation
+
+This repository contains solutions to interview questions from top tech companies:
+
+### Amazon
+- Tiling Problem (Recursion Part 2)
+- Search in Rotated Sorted Array (Divide & Conquer)
+
+### Google
+- Tiling Problem (Recursion Part 2)
+- N-Queens problem (Backtracking)
+
+### Microsoft
+- Search in Rotated Sorted Array (Divide & Conquer)
+- Sudoku Solver (Backtracking)
+
+### Goldman Sachs
+- Friends Pairing Problem (Recursion Part 2)
+
+Each solution includes:
+- ✓ Problem statement clarity
+- ✓ Complexity walk-through
+- ✓ Optimal implementation
+- ✓ Edge case handling
+- ✓ Time/Space trade-offs
+
 ## Notes
 
 - Some folders are placeholders and will be filled with implementations gradually.
