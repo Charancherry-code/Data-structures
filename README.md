@@ -312,11 +312,44 @@ CATEGORY/
 
 ## Notes
 
-- Some folders are placeholders and will be filled with implementations gradually.
-- A few folders may contain compiled .exe files from local runs.
+## 🔧 Technical Stack
 
-## License
+- **Language:** C++11 / C++14
+- **Compiler:** GCC, Clang, MSVC (any ISO C++11+ compliant compiler)
+- **Build:** No external dependencies - standard library only
+- **Platform:** Cross-platform (Windows, Linux, macOS)
+- **Compilation:** Simple g++ command line
 
-This repository is intended for learning and interview preparation.
+## Notes
 
-Last updated: 11 March 2026
+- Some folders are placeholders for upcoming implementations
+- Compiled `.exe` files are artifacts from local testing and can be safely ignored
+- All code is intentionally compiled from scratch each time for educational purposes
+- Repository structure prioritizes clarity and learning over production deployment
+
+## 📝 Repository Statistics
+
+- **Total Algorithms:** 15+
+- **Lines of Code:** 1000+
+- **Topics Covered:** 6 (Recursion, Divide & Conquer, Backtracking, Arrays, Strings, Data Structures)
+- **Interview Companies:** Amazon, Google, Microsoft, Goldman Sachs
+- **Difficulty Levels:** Beginner to Advanced
+
+## ✨ Perfect For
+
+- 📌 Technical interview preparation
+- 🎓 CS course supplementary materials  
+- 💼 Portfolio demonstration
+- 🧠 Algorithm mastery and competitive programming
+- 📚 Understanding fundamental CS paradigms
+
+---
+
+## 📄 License
+
+This project is open source and available for educational purposes.
+
+---
+
+_Last Updated: March 12, 2026_
+_Total Commits: 15_
