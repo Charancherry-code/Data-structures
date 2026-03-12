@@ -39,13 +39,27 @@ DSA/
 └── README.md
 ```
 
-## Implemented Topics
+## 📖 Topics Covered
 
-### Divide and Conquer
+### 🔀 Divide & Conquer
 
-- Merge Sort
-- Quick Sort
-- Search in Rotated Sorted Array
+- **Merge Sort** - Efficient O(n log n) stable sorting
+  - Time Complexity: O(n log n) in all cases
+  - Space Complexity: O(n)
+  - Two-pointer merging technique
+  - Optimal for large datasets requiring stable sort
+
+- **Quick Sort** - Fast in-place divide-and-conquer sorting
+  - Time Complexity: O(n log n) average, O(n²) worst case
+  - Space Complexity: O(log n) for recursion stack
+  - Partition-based approach with pivot selection
+  - Industry-standard sorting method
+
+- **Search in Rotated Sorted Array** - Binary search variant
+  - Time Complexity: O(log n)
+  - Space Complexity: O(1)
+  - Pivot detection and half-array elimination
+  - Common Amazon & Microsoft interview question
 
 ### Recursion Part 1
 
