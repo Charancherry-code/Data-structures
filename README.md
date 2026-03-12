@@ -191,6 +191,34 @@ Each solution includes:
 - ✓ Edge case handling
 - ✓ Time/Space trade-offs
 
+## 📚 Recommended Learning Path
+
+For optimal skill development and interview preparation:
+
+### Phase 1: Foundation (Week 1-2)
+1. **Recursion Part 1** - Master fundamental recursion patterns
+   - Understand base cases and recursive steps
+   - Practice with simple mathematical functions
+
+### Phase 2: Intermediate (Week 3-4)
+2. **Recursion Part 2** - Advanced recursive problem solving
+   - Learn dynamic programming intuition
+   - Practice with complex recursive patterns
+
+### Phase 3: Algorithms (Week 5-6)
+3. **Divide & Conquer** - Efficient algorithmic paradigms
+   - Study Merge Sort and Quick Sort
+   - Master binary search variants
+
+### Phase 4: Search & Exhaustion (Week 7-8)
+4. **Backtracking** - Exhaustive search with pruning
+   - N-Queens constraint satisfaction
+   - Subset generation and permutations
+   - Advanced: Sudoku solver
+
+### Phase 5: Data Structures (Ongoing)
+5. **Arrays, Strings, Vectors** - Fill in remaining data structure problems
+
 ## Notes
 
 - Some folders are placeholders and will be filled with implementations gradually.
