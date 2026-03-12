@@ -61,10 +61,15 @@ DSA/
   - Pivot detection and half-array elimination
   - Common Amazon & Microsoft interview question
 
-### Recursion Part 1
+### 🔁 Recursion - Part 1
 
-- Basic recursion patterns
-- Number and array recursion exercises
+Fundamentals of recursive problem solving:
+
+- **Factorial** - Base case and recursive step patterns
+  - Time: O(n), Space: O(n) call stack
+- **Number & Array Recursion** - Traversal patterns
+  - Forward and backward iteration using recursion
+  - Array element processing and validation
 
 ### Recursion Part 2
 
