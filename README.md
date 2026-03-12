@@ -219,6 +219,18 @@ For optimal skill development and interview preparation:
 ### Phase 5: Data Structures (Ongoing)
 5. **Arrays, Strings, Vectors** - Fill in remaining data structure problems
 
+## 🔧 Code Quality & Best Practices
+
+All implementations follow these principles:
+
+- **Clean Code** - Clear variable names, logical structure, and readable formatting
+- **Documentation** - Doxygen-style comments with parameter and return descriptions
+- **Modularity** - Each algorithm is self-contained and independently compilable
+- **Efficiency** - Optimal or near-optimal time and space complexity
+- **Edge Cases** - Input validation and boundary condition handling
+- **Standards** - ISO C++11 compliant, compiler-agnostic code
+- **Testing** - Example inputs and expected outputs documented in code
+
 ## Notes
 
 - Some folders are placeholders and will be filled with implementations gradually.
