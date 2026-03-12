@@ -85,12 +85,22 @@ Advanced recursive problem solving patterns:
   - Time: O(2^n), Space: O(n)
   - Goldman Sachs interview problem
 
-### Backtracking
+### 🔙 Backtracking
 
-- Subset generation
-- Grid ways
-- N-Queens
-- Permutations
+Exhaustive search with pruning strategies:
+
+- **Subset Generation** - Generate all 2^n subsets
+  - Time: O(2^n), Space: O(n) recursion depth
+- **Grid Ways** - Count paths in a matrix
+  - Time: O(2^(m+n)), Space: O(m+n)
+- **N-Queens** - Place N queens on NxN board
+  - Time: O(N!), Space: O(N)
+  - Classic backtracking problem with constraint satisfaction
+- **Permutations** - Generate all n! permutations
+  - Time: O(n * n!), Space: O(n)
+- **Sudoku Solver** - Constraint satisfaction via backtracking
+  - Time: O(9^(n²)), Space: O(n²)
+  - NP-complete problem with optimization through pruning
 
 ## Build and Run
 
