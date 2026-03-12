@@ -286,6 +286,30 @@ All implementations follow these principles:
 - **Heuristics:** Intelligent search ordering
 - **Example:** Sudoku uses bitmask for cell possibilities
 
+## 🤝 Contributing & Extending
+
+To add new algorithms or improve existing ones:
+
+1. **Create a new subfolder** in appropriate category folder
+2. **Write clean code** following existing conventions
+3. **Include documentation**:
+   - Function purpose and parameters
+   - Time and space complexity analysis
+   - Example inputs/outputs
+   - Interview company (if applicable)
+4. **Add compilation command** to README
+5. **Test thoroughly** with edge cases
+6. **Update relevant tables** in README
+7. **Commit with descriptive message** referencing the algorithm
+
+**Example folder structure for new algorithm:**
+```
+CATEGORY/
+└── algorithmName/
+    ├── code.cpp
+    └── README.md (optional - detailed explanation)
+```
+
 ## Notes
 
 - Some folders are placeholders and will be filled with implementations gradually.
