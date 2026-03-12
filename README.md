@@ -149,6 +149,22 @@ g++ -std=c++11 "RECURSION PART 2/code.cpp" -o recursion2
 ./recursion2
 ```
 
+## 💡 Complexity Analysis Reference
+
+| Algorithm                         | Time Complexity    | Space Complexity | Category      | Notes                          |
+|-----------------------------------|--------------------|------------------|---------------|--------------------------------|
+| Merge Sort                        | O(n log n) stable  | O(n)             | D&C           | Always O(n log n)              |
+| Quick Sort                        | O(n log n) avg     | O(log n)         | D&C           | O(n²) worst, in-place          |
+| Search Rotated Array              | O(log n)           | O(1)             | D&C           | Binary search variant          |
+| Subset Generation                 | O(2^n)             | O(n)             | Backtracking  | Exponential subsets            |
+| N-Queens                          | O(N!)              | O(N)             | Backtracking  | Constraint satisfaction        |
+| Permutations                      | O(n * n!)          | O(n)             | Backtracking  | All permutations               |
+| Sudoku Solver                     | O(9^(n²))          | O(n²)            | Backtracking  | NP-complete, pruning enables  |
+| Grid Ways                         | O(2^(m+n))         | O(m+n)           | Backtracking  | Path counting problems         |
+| Factorial                         | O(n)               | O(n)             | Recursion     | Linear recursion               |
+| Fibonacci                         | O(2^n) naive       | O(n)             | Recursion     | Exponential without memoization|
+| Tiling Problem                    | O(2^n)             | O(n)             | Recursion     | DP with recursion              |
+
 ## Notes
 
 - Some folders are placeholders and will be filled with implementations gradually.
