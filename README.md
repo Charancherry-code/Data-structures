@@ -231,6 +231,38 @@ All implementations follow these principles:
 - **Standards** - ISO C++11 compliant, compiler-agnostic code
 - **Testing** - Example inputs and expected outputs documented in code
 
+## 📊 Algorithm Classifications
+
+### By Paradigm
+
+**Divide & Conquer** (3 algorithms)
+- Problem decomposition into independent subproblems
+- Merge solutions for optimal results
+- Examples: Merge Sort, Quick Sort, Binary Search variants
+
+**Recursion** (6+ problems)
+- Direct recursive problem solving
+- Mathematical function evaluation
+- Deep recursion analysis
+- Examples: Factorial, Fibonacci, Tiling, Pairing
+
+**Backtracking** (5+ algorithms)
+- Exhaustive search with intelligent pruning
+- Constraint satisfaction problems
+- State space exploration
+- Examples: N-Queens, Permutations, Sudoku
+
+### By Difficulty
+
+**Beginner** - Foundation patterns
+- Factorial, Number Recursion, Merge Sort
+
+**Intermediate** - Problem-solving patterns
+- Quick Sort, Permutations, Grid Ways
+
+**Advanced** - Complex optimization
+- Sudoku Solver, Tiling with DP, Search Rotated Array
+
 ## Notes
 
 - Some folders are placeholders and will be filled with implementations gradually.
