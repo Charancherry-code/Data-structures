@@ -65,7 +65,7 @@ bool sudokoSolver(int sudoko[9][9], int r, int c){
     if( c+1 == 9){
     
      nextRow = r+1;
-    nextCol = c;
+    nextCol = 0;
 
     }
 
