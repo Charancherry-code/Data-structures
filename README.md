@@ -143,6 +143,10 @@ g++ -std=c++11 "DIVIDE&CONQUER/SEARCH-IN-ROTATED-SORTED-ARRAY/code.cpp" -o rotat
 **Backtracking Examples:**
 
 ```bash
+# Backtracking Init
+g++ -std=c++11 "BACK-TRACKING/init/code.cpp" -o bt_init
+./bt_init
+
 # N-Queens
 g++ -std=c++11 "BACK-TRACKING/N-queens/code.cpp" -o nqueens
 ./nqueens
@@ -154,6 +158,14 @@ g++ -std=c++11 "BACK-TRACKING/permutations/code.cpp" -o permutations
 # Sudoku Solver
 g++ -std=c++11 "BACK-TRACKING/sudokoSolver/code.cpp" -o sudoku
 ./sudoku
+```
+
+**Linked List Examples:**
+
+```bash
+# Linked List Init
+g++ -std=c++11 "LINKED-LIST/init.cpp" -o linked_list
+./linked_list
 ```
 
 **Recursion Examples:**
