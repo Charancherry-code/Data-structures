@@ -221,6 +221,11 @@ This repository contains solutions to interview questions from top tech companie
 
 - Friends Pairing Problem (Recursion Part 2)
 
+### Facebook / Meta
+
+- Linked List operations (Linked List)
+- Permutations (Backtracking)
+
 Each solution includes:
 
 - ✓ Problem statement clarity
