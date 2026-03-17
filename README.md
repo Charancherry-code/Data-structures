@@ -259,13 +259,21 @@ For optimal skill development and interview preparation:
 ### Phase 4: Search & Exhaustion (Week 7-8)
 
 4. **Backtracking** - Exhaustive search with pruning
+   - Start with init patterns
    - N-Queens constraint satisfaction
    - Subset generation and permutations
    - Advanced: Sudoku solver
 
-### Phase 5: Data Structures (Ongoing)
+### Phase 5: Data Structures (Week 9-10)
 
-5. **Arrays, Strings, Vectors** - Fill in remaining data structure problems
+5. **Linked List** - Pointer-based data structures
+   - Node creation and pointer manipulation
+   - Insertion, deletion, traversal
+   - Foundation for stacks and queues
+
+### Phase 6: Core DSA (Ongoing)
+
+6. **Arrays, Strings, Sorting, Vectors** - Fill in remaining implementations
 
 ## 🔧 Code Quality & Best Practices
 
