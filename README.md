@@ -311,6 +311,13 @@ All implementations follow these principles:
 - State space exploration
 - Examples: N-Queens, Permutations, Sudoku
 
+**Linked List** (1+ implementations)
+
+- Pointer-based dynamic data structure
+- Node chain manipulation
+- Foundation for advanced data structures
+- Examples: Singly Linked List
+
 ### By Difficulty
 
 **Beginner** - Foundation patterns
