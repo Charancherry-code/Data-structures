@@ -1,8 +1,8 @@
 #include<iostream>
 using namespace std;
 
-//Search in a Roated Sorted Array imp interview question
-int search( int arr[], int si, int ei, int tar){
+//Search in a Roated Sorted Array imp interview question leetcode 33
+int search( int arr[], int si, int ei, int tar){  //T.C = O(logn)
 
     int mid = si+(ei-si)/2;
     //Base Case
@@ -41,6 +41,7 @@ int search( int arr[], int si, int ei, int tar){
 
     }
 }
+
 
 
 int main(){
