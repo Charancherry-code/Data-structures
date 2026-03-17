@@ -396,6 +396,8 @@ CATEGORY/
 
 ## Notes
 
+- LINKED-LIST: singly linked list with insertion and traversal implemented
+- BACK-TRACKING/init: foundational backtracking template added
 - Some folders are placeholders for upcoming implementations
 - Compiled `.exe` files are artifacts from local testing and can be safely ignored
 - All code is intentionally compiled from scratch each time for educational purposes
