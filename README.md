@@ -93,6 +93,8 @@ Advanced recursive problem solving patterns:
 
 Exhaustive search with pruning strategies:
 
+- **Backtracking Init** - Core backtracking concepts and template
+  - Understanding the explore/choose/unchoose pattern
 - **Subset Generation** - Generate all 2^n subsets
   - Time: O(2^n), Space: O(n) recursion depth
 - **Grid Ways** - Count paths in a matrix
@@ -105,6 +107,16 @@ Exhaustive search with pruning strategies:
 - **Sudoku Solver** - Constraint satisfaction via backtracking
   - Time: O(9^(n²)), Space: O(n²)
   - NP-complete problem with optimization through pruning
+
+### 🔗 Linked List
+
+Fundamental linked data structure operations:
+
+- **Singly Linked List** - Core node-based structure
+  - Insertion at head and tail
+  - Traversal and display
+  - Memory management with pointers
+  - Foundation for stacks, queues, and advanced structures
 
 ## 🚀 Build and Run
 
