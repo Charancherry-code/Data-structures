@@ -7,6 +7,7 @@ A comprehensive collection of well-documented, production-quality implementation
 This project serves as a learning resource and interview preparation guide, covering critical algorithmic paradigms with clear explanations, time/space complexity analysis, and real-world use cases.
 
 **Key Features:**
+
 - ✅ Clean, readable C++11/C++14 code following best practices
 - ✅ Comprehensive problem implementations from major tech companies
 - ✅ Complexity analysis for every algorithm
@@ -24,11 +25,14 @@ DSA/
 ├── RECURSION PART 1/                 # Recursion fundamentals
 ├── RECURSION PART 2/                 # Advanced recursion techniques
 ├── BACK-TRACKING/                    # Backtracking algorithms
+│   ├── init/                         # Backtracking fundamentals
 │   ├── findSubsets/                  # Generate all subsets
 │   ├── GridWays/                     # Count paths in grid
 │   ├── N-queens/                     # N-Queens problem
 │   ├── permutations/                 # Generate permutations
 │   └── sudokoSolver/                 # Sudoku solver using backtracking
+├── LINKED-LIST/                      # Linked list implementations
+│   └── init.cpp                      # Singly linked list fundamentals
 ├── ARRAYS/                           # Array problems (in progress)
 ├── SORTING/                          # Sorting algorithms (in progress)
 ├── STRINGS/                          # String manipulation (in progress)
@@ -97,7 +101,7 @@ Exhaustive search with pruning strategies:
   - Time: O(N!), Space: O(N)
   - Classic backtracking problem with constraint satisfaction
 - **Permutations** - Generate all n! permutations
-  - Time: O(n * n!), Space: O(n)
+  - Time: O(n \* n!), Space: O(n)
 - **Sudoku Solver** - Constraint satisfaction via backtracking
   - Time: O(9^(n²)), Space: O(n²)
   - NP-complete problem with optimization through pruning
@@ -109,6 +113,7 @@ Exhaustive search with pruning strategies:
 Use g++ with C++11 standard to compile any file.
 
 **Divide & Conquer Examples:**
+
 ```bash
 # Merge Sort
 g++ -std=c++11 "DIVIDE&CONQUER/mergeSort/code.cpp" -o merge_sort
@@ -124,6 +129,7 @@ g++ -std=c++11 "DIVIDE&CONQUER/SEARCH-IN-ROTATED-SORTED-ARRAY/code.cpp" -o rotat
 ```
 
 **Backtracking Examples:**
+
 ```bash
 # N-Queens
 g++ -std=c++11 "BACK-TRACKING/N-queens/code.cpp" -o nqueens
@@ -139,6 +145,7 @@ g++ -std=c++11 "BACK-TRACKING/sudokoSolver/code.cpp" -o sudoku
 ```
 
 **Recursion Examples:**
+
 ```bash
 # Recursion Part 1
 g++ -std=c++11 "RECURSION PART 1/code.cpp" -o recursion1
@@ -151,40 +158,45 @@ g++ -std=c++11 "RECURSION PART 2/code.cpp" -o recursion2
 
 ## 💡 Complexity Analysis Reference
 
-| Algorithm                         | Time Complexity    | Space Complexity | Category      | Notes                          |
-|-----------------------------------|--------------------|------------------|---------------|--------------------------------|
-| Merge Sort                        | O(n log n) stable  | O(n)             | D&C           | Always O(n log n)              |
-| Quick Sort                        | O(n log n) avg     | O(log n)         | D&C           | O(n²) worst, in-place          |
-| Search Rotated Array              | O(log n)           | O(1)             | D&C           | Binary search variant          |
-| Subset Generation                 | O(2^n)             | O(n)             | Backtracking  | Exponential subsets            |
-| N-Queens                          | O(N!)              | O(N)             | Backtracking  | Constraint satisfaction        |
-| Permutations                      | O(n * n!)          | O(n)             | Backtracking  | All permutations               |
-| Sudoku Solver                     | O(9^(n²))          | O(n²)            | Backtracking  | NP-complete, pruning enables  |
-| Grid Ways                         | O(2^(m+n))         | O(m+n)           | Backtracking  | Path counting problems         |
-| Factorial                         | O(n)               | O(n)             | Recursion     | Linear recursion               |
-| Fibonacci                         | O(2^n) naive       | O(n)             | Recursion     | Exponential without memoization|
-| Tiling Problem                    | O(2^n)             | O(n)             | Recursion     | DP with recursion              |
+| Algorithm            | Time Complexity   | Space Complexity | Category     | Notes                           |
+| -------------------- | ----------------- | ---------------- | ------------ | ------------------------------- |
+| Merge Sort           | O(n log n) stable | O(n)             | D&C          | Always O(n log n)               |
+| Quick Sort           | O(n log n) avg    | O(log n)         | D&C          | O(n²) worst, in-place           |
+| Search Rotated Array | O(log n)          | O(1)             | D&C          | Binary search variant           |
+| Subset Generation    | O(2^n)            | O(n)             | Backtracking | Exponential subsets             |
+| N-Queens             | O(N!)             | O(N)             | Backtracking | Constraint satisfaction         |
+| Permutations         | O(n \* n!)        | O(n)             | Backtracking | All permutations                |
+| Sudoku Solver        | O(9^(n²))         | O(n²)            | Backtracking | NP-complete, pruning enables    |
+| Grid Ways            | O(2^(m+n))        | O(m+n)           | Backtracking | Path counting problems          |
+| Factorial            | O(n)              | O(n)             | Recursion    | Linear recursion                |
+| Fibonacci            | O(2^n) naive      | O(n)             | Recursion    | Exponential without memoization |
+| Tiling Problem       | O(2^n)            | O(n)             | Recursion    | DP with recursion               |
 
 ## 🎓 Interview Preparation
 
 This repository contains solutions to interview questions from top tech companies:
 
 ### Amazon
+
 - Tiling Problem (Recursion Part 2)
 - Search in Rotated Sorted Array (Divide & Conquer)
 
 ### Google
+
 - Tiling Problem (Recursion Part 2)
 - N-Queens problem (Backtracking)
 
 ### Microsoft
+
 - Search in Rotated Sorted Array (Divide & Conquer)
 - Sudoku Solver (Backtracking)
 
 ### Goldman Sachs
+
 - Friends Pairing Problem (Recursion Part 2)
 
 Each solution includes:
+
 - ✓ Problem statement clarity
 - ✓ Complexity walk-through
 - ✓ Optimal implementation
@@ -196,27 +208,32 @@ Each solution includes:
 For optimal skill development and interview preparation:
 
 ### Phase 1: Foundation (Week 1-2)
+
 1. **Recursion Part 1** - Master fundamental recursion patterns
    - Understand base cases and recursive steps
    - Practice with simple mathematical functions
 
 ### Phase 2: Intermediate (Week 3-4)
+
 2. **Recursion Part 2** - Advanced recursive problem solving
    - Learn dynamic programming intuition
    - Practice with complex recursive patterns
 
 ### Phase 3: Algorithms (Week 5-6)
+
 3. **Divide & Conquer** - Efficient algorithmic paradigms
    - Study Merge Sort and Quick Sort
    - Master binary search variants
 
 ### Phase 4: Search & Exhaustion (Week 7-8)
+
 4. **Backtracking** - Exhaustive search with pruning
    - N-Queens constraint satisfaction
    - Subset generation and permutations
    - Advanced: Sudoku solver
 
 ### Phase 5: Data Structures (Ongoing)
+
 5. **Arrays, Strings, Vectors** - Fill in remaining data structure problems
 
 ## 🔧 Code Quality & Best Practices
@@ -236,17 +253,20 @@ All implementations follow these principles:
 ### By Paradigm
 
 **Divide & Conquer** (3 algorithms)
+
 - Problem decomposition into independent subproblems
 - Merge solutions for optimal results
 - Examples: Merge Sort, Quick Sort, Binary Search variants
 
 **Recursion** (6+ problems)
+
 - Direct recursive problem solving
 - Mathematical function evaluation
 - Deep recursion analysis
 - Examples: Factorial, Fibonacci, Tiling, Pairing
 
 **Backtracking** (5+ algorithms)
+
 - Exhaustive search with intelligent pruning
 - Constraint satisfaction problems
 - State space exploration
@@ -255,32 +275,39 @@ All implementations follow these principles:
 ### By Difficulty
 
 **Beginner** - Foundation patterns
+
 - Factorial, Number Recursion, Merge Sort
 
 **Intermediate** - Problem-solving patterns
+
 - Quick Sort, Permutations, Grid Ways
 
 **Advanced** - Complex optimization
+
 - Sudoku Solver, Tiling with DP, Search Rotated Array
 
 ## ⚡ Key Optimization Techniques
 
 ### Sorting
+
 - **Comparison-based:** Merge Sort, Quick Sort
 - **Optimization:** Pivot selection strategies for Quick Sort
 - **Trade-offs:** Stable sorting vs in-place vs cache efficiency
 
 ### Searching
+
 - **Binary Search:** Applicable to rotated sorted arrays
 - **Pruning:** Early termination in search space
 - **Optimization:** Logarithmic time complexity
 
 ### Recursion Optimization
+
 - **Memoization:** Cache recursive results (DP foundation)
 - **Tail Recursion:** Compiler optimization potential
 - **Base Cases:** Minimize recursive depth
 
 ### Backtracking Optimization
+
 - **Constraint Pruning:** Early detection of invalid states
 - **Board Representation:** Efficient state encoding
 - **Heuristics:** Intelligent search ordering
@@ -303,6 +330,7 @@ To add new algorithms or improve existing ones:
 7. **Commit with descriptive message** referencing the algorithm
 
 **Example folder structure for new algorithm:**
+
 ```
 CATEGORY/
 └── algorithmName/
@@ -338,7 +366,7 @@ CATEGORY/
 ## ✨ Perfect For
 
 - 📌 Technical interview preparation
-- 🎓 CS course supplementary materials  
+- 🎓 CS course supplementary materials
 - 💼 Portfolio demonstration
 - 🧠 Algorithm mastery and competitive programming
 - 📚 Understanding fundamental CS paradigms
