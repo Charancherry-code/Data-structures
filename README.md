@@ -195,6 +195,8 @@ g++ -std=c++11 "RECURSION PART 2/code.cpp" -o recursion2
 | Factorial            | O(n)              | O(n)             | Recursion    | Linear recursion                |
 | Fibonacci            | O(2^n) naive      | O(n)             | Recursion    | Exponential without memoization |
 | Tiling Problem       | O(2^n)            | O(n)             | Recursion    | DP with recursion               |
+| Linked List Insert   | O(1) head / O(n)  | O(1)             | Linked List  | Pointer manipulation            |
+| Linked List Traverse | O(n)              | O(1)             | Linked List  | Sequential access               |
 
 ## 🎓 Interview Preparation
 
