@@ -451,6 +451,14 @@ CATEGORY/
 - All code is intentionally compiled from scratch each time for educational purposes
 - Repository structure prioritizes clarity and learning over production deployment
 
+## 🗺️ Roadmap (Next Additions)
+
+- Arrays: prefix sums, Kadane's algorithm, two-pointer patterns
+- Strings: pattern matching, palindrome variants, frequency maps
+- Sorting: counting sort, heap sort, custom comparator use-cases
+- Bit Manipulation: bitmask basics, subset masks, XOR tricks
+- Linked List: reverse, cycle detection, merge two sorted lists
+
 ## 📝 Repository Statistics
 
 - **Total Algorithms:** 18+
