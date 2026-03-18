@@ -384,8 +384,6 @@ CATEGORY/
     └── README.md (optional - detailed explanation)
 ```
 
-## Notes
-
 ## 🔧 Technical Stack
 
 - **Language:** C++11 / C++14
