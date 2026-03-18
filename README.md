@@ -463,8 +463,8 @@ CATEGORY/
 
 ## 📝 Repository Statistics
 
-- **Total Algorithms:** 18+
-- **Lines of Code:** 1200+
+- **Total Algorithms:** 20+
+- **Lines of Code:** 1300+
 - **Topics Covered:** 7 (Recursion, Divide & Conquer, Backtracking, Linked List, Arrays, Strings, Data Structures)
 - **Interview Companies:** Amazon, Google, Microsoft, Goldman Sachs, Facebook/Meta
 - **Difficulty Levels:** Beginner to Advanced
