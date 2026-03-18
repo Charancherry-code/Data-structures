@@ -14,6 +14,18 @@ This project serves as a learning resource and interview preparation guide, cove
 - ✅ Real-world problem examples (Amazon, Google, Microsoft interview questions)
 - ✅ Well-organized modular structure by algorithmic paradigm
 
+## 📑 Table of Contents
+
+- [Project Structure](#-project-structure)
+- [Topics Covered](#-topics-covered)
+- [Build and Run](#-build-and-run)
+- [Complexity Analysis](#-complexity-analysis-reference)
+- [Interview Preparation](#-interview-preparation)
+- [Learning Path](#-recommended-learning-path)
+- [Contributing](#-contributing--extending)
+- [Technical Stack](#-technical-stack)
+- [License](#-license)
+
 ## 📂 Project Structure
 
 ```
