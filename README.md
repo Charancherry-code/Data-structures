@@ -202,6 +202,16 @@ g++ -std=c++11 "RECURSION PART 2/code.cpp" -o recursion2
 ./recursion2
 ```
 
+### Optional Cleanup
+
+```bash
+# Linux/macOS
+rm -f merge_sort quick_sort rotated_search nqueens permutations sudoku linked_list recursion1 recursion2
+
+# Windows PowerShell
+Remove-Item *.exe -ErrorAction SilentlyContinue
+```
+
 ## 💡 Complexity Analysis Reference
 
 | Algorithm            | Time Complexity   | Space Complexity | Category     | Notes                           |
