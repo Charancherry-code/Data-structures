@@ -441,6 +441,7 @@ CATEGORY/
 - **Build:** No external dependencies - standard library only
 - **Platform:** Cross-platform (Windows, Linux, macOS)
 - **Compilation:** Simple g++ command line
+- **Recommended Flags:** `-std=c++11 -Wall -Wextra`
 
 ## Notes
 
