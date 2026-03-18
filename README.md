@@ -131,7 +131,6 @@ Fundamental linked data structure operations:
   - Foundation for stacks, queues, and advanced structures
 
   ## ✅ Prerequisites
-
   - C++ compiler with C++11 support (GCC, Clang, or MSVC)
   - Terminal access (PowerShell, CMD, Bash, or zsh)
   - Basic familiarity with compiling single C++ files
@@ -215,6 +214,7 @@ Remove-Item *.exe -ErrorAction SilentlyContinue
 ## 💡 Complexity Analysis Reference
 
 Notation legend:
+
 - `n`: number of elements
 - `m`, `n` (grid): number of rows and columns
 - `N`: board size for N-Queens
@@ -418,6 +418,12 @@ To add new algorithms or improve existing ones:
 5. **Test thoroughly** with edge cases
 6. **Update relevant tables** in README
 7. **Commit with descriptive message** referencing the algorithm
+
+Suggested commit message format:
+
+- `feat: add <algorithm-name> implementation`
+- `docs: update README for <topic>`
+- `fix: correct <algorithm-name> edge case`
 
 **Example folder structure for new algorithm:**
 
