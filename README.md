@@ -396,6 +396,13 @@ All implementations follow these principles:
 - **Heuristics:** Intelligent search ordering
 - **Example:** Sudoku uses bitmask for cell possibilities
 
+## 🛠️ Troubleshooting
+
+- `g++: command not found`: install GCC/MinGW and add it to PATH.
+- Program compiles but does not run: use the correct platform format (`./a.exe` on Windows, `./a.out` or output name on Linux/macOS).
+- Wrong answers in recursive programs: verify base cases and backtracking reset steps.
+- Stack overflow in recursion: test smaller inputs first and confirm recursion termination.
+
 ## 🤝 Contributing & Extending
 
 To add new algorithms or improve existing ones:
