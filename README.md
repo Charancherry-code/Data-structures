@@ -214,6 +214,11 @@ Remove-Item *.exe -ErrorAction SilentlyContinue
 
 ## 💡 Complexity Analysis Reference
 
+Notation legend:
+- `n`: number of elements
+- `m`, `n` (grid): number of rows and columns
+- `N`: board size for N-Queens
+
 | Algorithm            | Time Complexity   | Space Complexity | Category     | Notes                           |
 | -------------------- | ----------------- | ---------------- | ------------ | ------------------------------- |
 | Merge Sort           | O(n log n) stable | O(n)             | D&C          | Always O(n log n)               |
