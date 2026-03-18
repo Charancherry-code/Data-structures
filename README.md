@@ -475,6 +475,13 @@ CATEGORY/
 - 🧠 Algorithm mastery and competitive programming
 - 📚 Understanding fundamental CS paradigms
 
+## 🧪 Online Judge Submission Tips
+
+- Remove `main()` when submitting to platforms like LeetCode if function signature is predefined.
+- Keep helper functions `static` or inside solution classes where required by platform format.
+- Prefer iterative + optimized recursive variants to avoid TLE on large hidden tests.
+- Double-check 0-based vs 1-based indexing before final submission.
+
 ---
 
 ## 📄 License
