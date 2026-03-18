@@ -444,6 +444,7 @@ CATEGORY/
 
 ## Notes
 
+- Folder naming note: `sudokoSolver` is a historical naming typo kept for backward compatibility in this repo.
 - LINKED-LIST: singly linked list with insertion and traversal implemented
 - BACK-TRACKING/init: foundational backtracking template added
 - Some folders are placeholders for upcoming implementations
