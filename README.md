@@ -142,6 +142,8 @@ Fundamental linked data structure operations:
 
 Use g++ with C++11 standard to compile any file.
 
+**Windows note:** executable names like `merge_sort.exe` can be run with `./merge_sort` in Git Bash or `./merge_sort.exe` in PowerShell/CMD.
+
 **Divide & Conquer Examples:**
 
 ```bash
