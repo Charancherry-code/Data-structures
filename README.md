@@ -140,6 +140,13 @@ Fundamental linked data structure operations:
 - Terminal access (PowerShell, CMD, Bash, or zsh)
 - Basic familiarity with compiling single C++ files
 
+## ⚡ Quick Start (60 Seconds)
+
+```bash
+g++ -std=c++11 "DIVIDE&CONQUER/mergeSort/code.cpp" -o merge_sort
+./merge_sort
+```
+
 ## 🚀 Build and Run
 
 ### Compilation
