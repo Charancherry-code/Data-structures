@@ -18,12 +18,16 @@ This project serves as a learning resource and interview preparation guide, cove
 
 - [Project Structure](#-project-structure)
 - [Topics Covered](#-topics-covered)
+- [Prerequisites](#-prerequisites)
 - [Build and Run](#-build-and-run)
 - [Complexity Analysis](#-complexity-analysis-reference)
 - [Interview Preparation](#-interview-preparation)
 - [Learning Path](#-recommended-learning-path)
+- [Troubleshooting](#-troubleshooting)
 - [Contributing](#-contributing--extending)
 - [Technical Stack](#-technical-stack)
+- [Roadmap](#-roadmap-next-additions)
+- [Online Judge Tips](#-online-judge-submission-tips)
 - [License](#-license)
 
 ## 📂 Project Structure
