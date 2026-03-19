@@ -59,6 +59,12 @@ DSA/
 └── README.md
 ```
 
+### Naming Conventions
+
+- Topic folders use uppercase + separators (for example: `DIVIDE&CONQUER`, `BACK-TRACKING`).
+- Problem folders use descriptive names (for example: `SEARCH-IN-ROTATED-SORTED-ARRAY`).
+- Most implementations use `code.cpp` for quick compile-and-run workflow.
+
 ## 📖 Topics Covered
 
 ### 🔀 Divide & Conquer
