@@ -446,6 +446,13 @@ Suggested commit message format:
 - `docs: update README for <topic>`
 - `fix: correct <algorithm-name> edge case`
 
+### Pre-Commit Testing Checklist
+
+- Compile changed file with `-Wall -Wextra` enabled.
+- Run at least one normal case and one edge case.
+- Re-check time and space complexity notes for accuracy.
+- Ensure no debug-only prints remain in final solution.
+
 **Example folder structure for new algorithm:**
 
 ```
