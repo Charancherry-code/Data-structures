@@ -427,6 +427,12 @@ All implementations follow these principles:
 
 ## 🤝 Contributing & Extending
 
+For bug reports or improvement ideas, open an issue with:
+- Problem/topic name
+- Current behavior
+- Expected behavior
+- Sample input/output (if applicable)
+
 To add new algorithms or improve existing ones:
 
 1. **Create a new subfolder** in appropriate category folder
