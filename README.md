@@ -237,6 +237,9 @@ Notation legend:
 - `m`, `n` (grid): number of rows and columns
 - `N`: board size for N-Queens
 
+Optimization note:
+- Recursive problems like Fibonacci and Tiling can be improved from exponential to linear-time DP using memoization/tabulation.
+
 | Algorithm            | Time Complexity   | Space Complexity | Category     | Notes                           |
 | -------------------- | ----------------- | ---------------- | ------------ | ------------------------------- |
 | Merge Sort           | O(n log n) stable | O(n)             | D&C          | Always O(n log n)               |
