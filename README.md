@@ -238,6 +238,7 @@ Notation legend:
 - `N`: board size for N-Queens
 
 Optimization note:
+
 - Recursive problems like Fibonacci and Tiling can be improved from exponential to linear-time DP using memoization/tabulation.
 
 | Algorithm            | Time Complexity   | Space Complexity | Category     | Notes                           |
@@ -470,6 +471,19 @@ CATEGORY/
 - **Platform:** Cross-platform (Windows, Linux, macOS)
 - **Compilation:** Simple g++ command line
 - **Recommended Flags:** `-std=c++11 -Wall -Wextra`
+
+## ⌨️ Useful Command Snippets
+
+```bash
+# Compile any module quickly
+g++ -std=c++11 -Wall -Wextra "<path/to/code.cpp>" -o run
+
+# Check current git state
+git status --short
+
+# View latest commits
+git log --oneline -10
+```
 
 ## Notes
 
