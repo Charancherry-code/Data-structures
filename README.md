@@ -130,10 +130,11 @@ Fundamental linked data structure operations:
   - Memory management with pointers
   - Foundation for stacks, queues, and advanced structures
 
-  ## ✅ Prerequisites
-  - C++ compiler with C++11 support (GCC, Clang, or MSVC)
-  - Terminal access (PowerShell, CMD, Bash, or zsh)
-  - Basic familiarity with compiling single C++ files
+## ✅ Prerequisites
+
+- C++ compiler with C++11 support (GCC, Clang, or MSVC)
+- Terminal access (PowerShell, CMD, Bash, or zsh)
+- Basic familiarity with compiling single C++ files
 
 ## 🚀 Build and Run
 
