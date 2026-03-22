@@ -4,7 +4,7 @@ A comprehensive collection of well-documented, production-quality implementation
 
 ## 🎯 Overview
 
-This project serves as a learning resource and interview preparation guide, covering critical algorithmic paradigms with clear explanations, time/space complexity analysis, and real-world use cases.
+This project serves as a learning resource and interview preparation guide, covering critical algorithmic paradigms with clear explanations, time/space complexity analysis, and real-world use cases..
 
 **Key Features:**
 
