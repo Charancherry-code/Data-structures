@@ -38,12 +38,27 @@ void push_back(int val){
             tail = newNode;
         }
     }
+
+    void printList(){
+
+        Node* temp = head;
+        while( temp != NULL){
+
+            cout<<temp->data<<" ->";
+            temp = temp->next;
+        }
+    }
      
 };
 
 int main(){
 
     List linked_list;
+    linked_list.push_back(10);
+    linked_list.push_back(20);
+    linked_list.push_back(30);
+    linked_list.printList();
+
 
     return 0;
 }
