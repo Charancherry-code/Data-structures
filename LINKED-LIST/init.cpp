@@ -47,6 +47,8 @@ void push_back(int val){
             cout<<temp->data<<" ->";
             temp = temp->next;
         }
+
+        cout<<"NULL";
     }
      
 };
