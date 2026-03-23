@@ -2,16 +2,17 @@
 using namespace std;
 
 class Node {
-     
+public:
     int data;
     Node* next;
 
-public:
     Node(int val){
 
         data = val;
         next = NULL;
     }
+
+    
 };
 
 class List{
@@ -24,11 +25,25 @@ public:
         head = NULL;
         tail = NULL;
      }
+void push_back(int val){
+
+        Node* newNode = new Node(val);
+
+        if( head == NULL){
+            
+            head = tail = newNode;
+        }else{
+
+            tail->next = newNode;
+            tail = newNode;
+        }
+    }
+     
 };
 
 int main(){
 
-    List Linked_list();
+    List linked_list;
 
     return 0;
 }
