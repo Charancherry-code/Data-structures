@@ -39,6 +39,20 @@ void push_back(int val){
         }
     }
 
+    void push_front(int val){
+
+        Node* newNode = new Node(val);
+
+        if(head == nullptr){
+
+            head = tail = newNode;
+        } else {
+
+            newNode->next = head;
+            head = newNode;
+        }
+    }
+
     void printList(){
 
         Node* temp = head;
