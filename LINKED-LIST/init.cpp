@@ -25,11 +25,17 @@ public:
           head = nullptr;
           tail = nullptr;
      }
+
+    bool isEmpty(){
+
+        return head == nullptr;
+    }
+
 void push_back(int val){
 
         Node* newNode = new Node(val);
 
-        if( head == nullptr){
+        if(isEmpty()){
             
             head = tail = newNode;
         }else{
@@ -43,7 +49,7 @@ void push_back(int val){
 
         Node* newNode = new Node(val);
 
-        if(head == nullptr){
+        if(isEmpty()){
 
             head = tail = newNode;
         } else {
