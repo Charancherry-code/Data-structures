@@ -102,10 +102,12 @@ void push_back(int val){
 int main(){
 
     List linked_list;
+    linked_list.push_front(5);
     linked_list.push_back(10);
     linked_list.push_back(20);
     linked_list.push_back(30);
     linked_list.printList();
+    cout<<"\nSize: "<<linked_list.size();
 
 
     return 0;
