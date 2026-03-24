@@ -9,7 +9,7 @@ public:
     Node(int val){
 
         data = val;
-        next = NULL;
+        next = nullptr;
     }
 
     
@@ -22,14 +22,14 @@ class List{
 public:
      List() {
 
-        head = NULL;
-        tail = NULL;
+          head = nullptr;
+          tail = nullptr;
      }
 void push_back(int val){
 
         Node* newNode = new Node(val);
 
-        if( head == NULL){
+        if( head == nullptr){
             
             head = tail = newNode;
         }else{
@@ -42,7 +42,7 @@ void push_back(int val){
     void printList(){
 
         Node* temp = head;
-        while( temp != NULL){
+        while( temp != nullptr){
 
             cout<<temp->data<<" ->";
             temp = temp->next;
