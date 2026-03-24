@@ -26,6 +26,18 @@ public:
           tail = nullptr;
      }
 
+    ~List(){
+
+        Node* temp = head;
+
+        while(temp != nullptr){
+
+            Node* nextNode = temp->next;
+            delete temp;
+            temp = nextNode;
+        }
+    }
+
     bool isEmpty(){
 
         return head == nullptr;
