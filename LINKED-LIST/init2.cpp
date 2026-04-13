@@ -167,6 +167,72 @@ public:
         }
     }
 
+    Node* mergeSort(Node* left, Node* right){
+
+        Node dummy(0);
+        Node* mergedTail = &dummy;
+
+        while(left != nullptr && right != nullptr){
+
+            if(left->data <= right->data){
+                mergedTail->next = left;
+                left = left->next;
+            }else{
+                mergedTail->next = right;
+                right = right->next;
+            }
+
+            mergedTail = mergedTail->next;
+        }
+
+        if(left != nullptr){
+            mergedTail->next = left;
+        }else{
+            mergedTail->next = right;
+        }
+
+        return dummy.next;
+    }
+
+    Node* split(Node* start){
+        Node* slow = start;
+        Node* fast = start;
+        Node* prev = nullptr;
+
+        while(fast != nullptr && fast->next != nullptr){
+            prev = slow;
+            slow = slow->next;
+            fast = fast->next->next;
+        }
+
+        if(prev != nullptr){
+            prev->next = nullptr;
+        }
+
+        return slow;
+    }
+
+    Node* mergeLL(Node* start){
+        if(start == nullptr || start->next == nullptr){
+            return start;
+        }
+
+        Node* rightHead = split(start);
+        Node* leftSorted = mergeLL(start);
+        Node* rightSorted = mergeLL(rightHead);
+
+        return mergeSort(leftSorted, rightSorted);
+    }
+
+    void sortList(){
+        head = mergeLL(head);
+
+        tail = head;
+        while(tail != nullptr && tail->next != nullptr){
+            tail = tail->next;
+        }
+    }
+
 };
 
 int main(){
@@ -178,5 +244,6 @@ int main(){
     linked_list.push_front(1);
     linked_list.makeCycle();
     linked_list.removeCycle();
+    linked_list.sortList();
     linked_list.printList();
 }  
