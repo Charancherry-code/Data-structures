@@ -428,6 +428,7 @@ All implementations follow these principles:
 ## 🤝 Contributing & Extending
 
 For bug reports or improvement ideas, open an issue with:
+
 - Problem/topic name
 - Current behavior
 - Expected behavior
