@@ -235,6 +235,8 @@ public:
         tail = oldHead;
    }
 
+   //size of a ll
+
     int size(){
 
         int count = 0;
@@ -245,11 +247,25 @@ public:
             count++;
             temp = temp->next;
         }
-
         return count;
     }
 
+    //find and remove Nth Node from end
 
+   void nthNodeDel( int n){
+    int sz = size(); 
+    Node* prev = head;
+
+    for( int i=1; i< sz-n; i++){
+
+        prev = prev->next;
+    }
+    Node* toDel = prev->next;
+    cout<<toDel;
+
+    prev->next = prev->next->next;
+
+   }
 };
 
 int main(){
@@ -260,7 +276,10 @@ int main(){
     linked_list.push_back(20);
     linked_list.push_back(30);
     linked_list.printList();
-    linked_list.reverseLL();
+    // linked_list.reverseLL();
+
+    linked_list.nthNodeDel(2);
+
     linked_list.printList();
 
      
